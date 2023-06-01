@@ -1,0 +1,101 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
+
+.heading-container-logout {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.logout-button {
+  color: black;
+  background-color: #ccc;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: bold;
+  width: 70px;
+  height: 30px;
+}
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+.filter-button {
+  color: black;
+  background-color: #ccc;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px;
+  min-width: 40px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.crossing-name {
+  margin: 0;
+}
+
+.card-labels {
+  display: flex;
+  height: 30px;
+}
+
+.label {
+  font-size: 15px;
+}
+
+.crossing-status {
+  color: white;
+  background-color: #00d100;
+  border-radius: 30px;
+  width: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  height: 24px;
+}
+
+.sub-label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.add-to-fav {
+  width: 150px;
+  background: none;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #bbb;
+  font-size: 13px;
+  padding: 2px;
+  margin-top: 20px;
+}

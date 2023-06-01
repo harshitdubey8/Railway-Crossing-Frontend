@@ -1,0 +1,75 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.sub-heading {
+  color: #ccc;
+  margin-top: -20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label-heading {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.input-field {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+
+  border: 0.1px solid #ccc;
+  outline-width: 0;
+  font-size: 15px;
+}
+
+.textarea-input {
+  height: 40px;
+  border-radius: 5px;
+  border: 0.1px solid #ccc;
+  outline-width: 0;
+}
+
+.reg-button {
+  color: white;
+  background-color: #00d100;
+  border-radius: 5px;
+  width: 300px;
+  height: 25px;
+  border: none;
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.status {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.crossing-status {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
